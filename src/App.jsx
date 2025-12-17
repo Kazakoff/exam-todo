@@ -9,14 +9,9 @@ import About from './pages/About';
 import NotFound from './pages/NotFound';
 
 const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#1976d2',
-    },
-    secondary: {
-      main: '#dc004e',
-    },
-  },
+  colorSchemes: {
+    dark: true,
+  }
 });
 
 function App() {
